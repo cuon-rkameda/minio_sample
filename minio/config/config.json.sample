@@ -1,0 +1,61 @@
+{
+    "version": "22",
+    "credential": {
+        "accessKey": "USWUXHGYZQYFYFFIT3RE",
+        "secretKey": "MOJRH0mkL1IPauahWITSVvyDrQbEEIwljvmxdq03"
+    },
+    "region": "ap-northeast-1",
+    "browser": "on",
+    "domain": "uoloads.mydomain.com",
+    "storageclass": {
+        "standard": "",
+        "rrs": ""
+    },
+    "notify": {
+        "amqp": {
+            "1": {
+                "enable": false
+            }
+        },
+        "nats": {
+            "1": {
+                "enable": false
+            }
+        },
+        "elasticsearch": {
+            "1": {
+                "enable": false
+            }
+        },
+        "redis": {
+            "1": {
+                "enable": false
+            }
+        },
+        "postgresql": {
+            "1": {
+                "enable": false
+            }
+        },
+        "kafka": {
+            "1": {
+                "enable": false
+            }
+        },
+        "webhook": {
+            "1": {
+                "enable": false
+            }
+        },
+        "mysql": {
+            "1": {
+                "enable": false
+            }
+        },
+        "mqtt": {
+            "1": {
+                "enable": false
+            }
+        }
+    }
+}
